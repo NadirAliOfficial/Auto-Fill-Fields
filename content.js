@@ -2,8 +2,6 @@
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   if (request.action === "startClicking") {
-    // Replace 'yourCardNumberSelector', 'yourExpirationDateSelector', and 'yourCvcSelector'
-    // with the actual selectors of your card number, expiration date, and cvc input fields
     var cardNumberInput = document.querySelector("#cardNumber");
     var expirationDateInput = document.querySelector("#expirationDate");
     var cvcInput = document.querySelector("#cvc");
