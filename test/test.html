@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <h1>Payment Information</h1>
+    <form id="paymentForm">
+      <label for="cardNumber">Card Number:</label>
+      <input
+        type="text"
+        id="cardNumber"
+        name="cardNumber"
+        placeholder="1111 1111 1111 1111"
+        required
+      /><br />
+
+      <label for="expirationDate">Expiration Date:</label>
+      <input
+        type="text"
+        id="expirationDate"
+        name="expirationDate"
+        placeholder="MM/YY"
+        required
+      /><br />
+
+      <label for="cvc">CVC:</label>
+      <input type="text" id="cvc" name="cvc" placeholder="111" required /><br />
+
+      <button type="button" id="submitBtn">Submit</button>
+    </form>
+
+    <script src="test.js"></script>
+  </body>
+</html>
