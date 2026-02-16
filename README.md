@@ -16,4 +16,4 @@ Include the script in your HTML and configure field mappings in `config.js`.
 
 ## License
 MIT
-<!-- updated: 2026-01-02-03 -->
+<!-- updated: 2026-02-16-04 -->
