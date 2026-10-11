@@ -1,14 +1,18 @@
 # Auto Fill Fields — Chrome Extension
 
-A Chrome extension that automatically fills form fields on client websites. Built for a client to speed up repetitive data entry workflows.
+A Chrome extension that automatically fills form fields on client websites, streamlining repetitive data entry tasks.
 
 ## Features
 
 - Auto-populates form fields on page load
-- Configurable field mappings via `config.js`
+- Configurable field mappings via `content.js`
 - Works with text inputs, selects, textareas
 - Toggle on/off via extension popup
 - Per-site configuration support
+
+## Requirements
+
+- Google Chrome (or Chromium‑based browser) supporting Manifest V3 extensions.
 
 ## Installation
 
@@ -17,9 +21,13 @@ A Chrome extension that automatically fills form fields on client websites. Buil
 3. Enable **Developer Mode**
 4. Click **Load unpacked** → select the folder
 
+## Usage
+
+After loading the unpacked extension, click the extension icon to open the popup and use the toggle button to start filling form fields on supported pages.
+
 ## Configuration
 
-Edit `config.js` to define your field mappings:
+Edit `content.js` to define your field mappings:
 
 ```js
 const fieldMappings = {
